@@ -41,12 +41,12 @@ body {
   background-image: url(images/bg-desktop.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  margin: 0 auto;
+
   /* border: 1px solid white; */
   display: grid;
-  justify-content: center;
   place-items: center;
   padding: 2rem;
+  margin: 0 auto;
 }
 
 .container {
