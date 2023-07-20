@@ -118,6 +118,15 @@ body {
   border-radius: 1rem;
 }
 
+.upload-storage-title {
+  font-size: 1.7rem;
+  font-weight: var(--fw-sm);
+}
+
+.storage-value {
+  font-weight: var(--fw-md);
+}
+
 .upload-percentage {
   display: flex;
   justify-content: space-between;
@@ -183,17 +192,6 @@ body {
   text-transform: uppercase;
 }
 
-/* Give some style to the Creator of the Component*/
-
-.attribution {
-  color: white;
-  text-align: center;
-}
-
-.attribution a {
-  color: tomato;
-}
-
 /* Styling for Mobile Screens */
 
 @media (max-width: 400px) {
@@ -210,6 +208,11 @@ body {
 
   .upload-container {
     padding-bottom: 4rem;
+  }
+
+  .upload-storage-title {
+    font-size: 1.5rem;
+    font-weight: var(--fw-sm);
   }
 
   .data-left-box {
